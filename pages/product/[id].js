@@ -30,6 +30,7 @@ const Price = styled.span`
 `;
 
 export default function ProductPage({product}) {
+  console.log(product)
   const {addProduct} = useContext(CartContext);
   return (
     <>

@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 import styled from "styled-components";
 import Center from "@/components/Center";
 import {mongooseConnect} from "@/lib/mongoose";
@@ -14,6 +15,7 @@ export default function ProductsPage({products}) {
         <Title>All products</Title>
         <ProductsGrid products={products} />
       </Center>
+      <Footer/>
     </>
   );
 }
